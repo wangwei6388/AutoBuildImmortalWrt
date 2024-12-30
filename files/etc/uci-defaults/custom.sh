@@ -21,7 +21,7 @@ done
 
 # 网络设置
 if [ "$count" -eq 1 ]; then
-  uci set network.lan.proto='dhcp'
+  uci set network.lan.proto='static'
 elif [ "$count" -gt 1 ]; then
   uci set network.lan.ipaddr='10.10.10.2'
 fi
