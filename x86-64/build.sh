@@ -48,8 +48,8 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-PACKAGES="$PACKAGES openssh-sftp-server"
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+#PACKAGES="$PACKAGES openssh-sftp-server"
+#PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 
@@ -72,10 +72,10 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 #PACKAGES="$PACKAGES luci-app-partexp"
 #PACKAGES="$PACKAGES luci-i18n-partexp-zh-cn"
 # 酷猫主题 by sirpdboy 
-#PACKAGES="$PACKAGES luci-theme-kucat"
+PACKAGES="$PACKAGES luci-theme-kucat"
 # 网络测速 by sirpdboy 
-#PACKAGES="$PACKAGES luci-app-netspeedtest"
-#PACKAGES="$PACKAGES luci-i18n-netspeedtest-zh-cn"
+PACKAGES="$PACKAGES luci-app-netspeedtest"
+PACKAGES="$PACKAGES luci-i18n-netspeedtest-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
