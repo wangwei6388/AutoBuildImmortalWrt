@@ -64,7 +64,7 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # 代理相关
 #PACKAGES="$PACKAGES luci-app-ssr-plus"
 #PACKAGES="$PACKAGES luci-app-passwall2"
-#PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
 # VPN
 #PACKAGES="$PACKAGES luci-app-tailscale"
 #PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
